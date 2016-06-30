@@ -1,0 +1,115 @@
+"dota_shops"
+{
+	"consumables"
+	{
+		"item"		"item_orb_of_agility"
+		"item"		"item_orb_of_intellect"
+		"item"		"item_orb_of_strength"		
+		"item"		"item_watch_of_reset"
+		"item"		"item_small_heal_potion"
+		"item"		"item_small_mana_potion"
+		"item"		"item_large_heal_potion"
+		"item"		"item_large_mana_potion"
+		"item"		"item_ward_observer"							
+	}
+
+	"attributes"
+	{
+		"item"		"item_orb_of_ice_arrow"
+		"item"		"item_orb_of_greater_damage"
+		"item"		"item_orb_of_greater_defense"
+		"item"		"item_orb_of_heal"	
+		//"item"		"item_orb_of_summon"
+
+		"item"		"item_bow_elven"
+		"item"		"item_bow_battle"
+		"item"		"item_bow_tiger"
+		"item"		"item_crossbow_saint"
+
+		"item"		"item_armor_silk"
+		"item"		"item_armor_wind"	
+		"item"		"item_armor_guardian"	
+	}
+
+	"weapons_armor"
+	{
+		"item"		"item_orb_of_twisting_slash"
+		"item"		"item_orb_of_death_stab"
+		"item"		"item_orb_of_strike_of_destruction"			
+
+		"item"		"item_sword_falchion"
+		"item"		"item_sword_double_blade"
+		"item"		"item_sword_lightning"
+		"item"		"item_sword_crystal"
+		
+		"item"		"item_armor_scile"
+		"item"		"item_armor_plate"	
+		"item"		"item_armor_dragon"		
+	}
+	
+	"misc"
+	{
+		"item"		"item_scroll_of_evil_spirits"
+		"item"		"item_scroll_of_ice_storm"
+		"item"		"item_scroll_of_soul_barrier"
+		"item"		"item_scroll_of_teleport"		
+
+		"item"		"item_staff_serpent"
+		"item"		"item_staff_legendary"
+		"item"		"item_staff_resurrection"
+		"item"		"item_staff_dark_soul"
+		
+		"item"		"item_armor_bone"
+		"item"		"item_armor_sphinx"	
+		"item"		"item_armor_legendary"			
+	}	
+	
+	// Level 1 - Green Recipes
+	"basics"
+	{
+
+	}
+
+	// Level 2 - Blue Recipes
+	"support"
+	{
+
+	}
+	
+	"magics"
+	{
+
+	}
+	
+	// Level 3 - Purple Recipes
+	"defense"
+	{
+
+	}
+	
+	"weapons"
+	{
+
+	}
+	
+	// Level 4 - Orange / Orb / Artifacts
+	"artifacts"
+	{
+
+	}
+
+	"sideshop1"
+	{
+
+	}
+
+	"sideshop2"
+	{
+
+	}
+	
+	"secretshop"
+	{
+
+	}
+}

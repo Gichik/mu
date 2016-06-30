@@ -1,0 +1,86 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/dotastyles.css" />
+		<include src="file://{resources}/styles/custom_game/game_info.css" />
+	</styles>
+
+	<Panel class="GameInfo" >
+		<Panel id="Title">
+			<Label id="TitleName" text="#addon_game_name" />
+		</Panel> 
+
+		<!--Цель-->
+		<!--<Label id="GameDescription" text="#task" />-->		
+		<Label id="H1" class="Header" html="true" text="#task" /> 
+		<Panel id="InfoTask1" class="InfoStringRight" >
+			<Label id="InfoTask1Text" text="#taskInfo1" />
+			<Image id="InfoTask1Image1" src="file://{images}/custom_game/game_info/kundum.png" />
+		</Panel> 
+
+		<Label id="InfoTask2Text" class="InfoStringRight" html="true" text="#taskInfo2" />
+
+		<Panel id="InfoTask2" class="InfoStringRight" >
+			<Image id="InfoTask2Image1" src="file://{images}/custom_game/game_info/lost_cube.png" />
+			<Label id="InfoTask1Text" text="" />
+			<Image id="InfoTask2Image2" src="file://{images}/custom_game/game_info/symbol_of_kundun.png" />
+		</Panel>
+		<!--Кач-->
+		<Label id="H2" class="Header" html="true" text="#progress" />
+		<Label id="InfoProgress1Text" class="InfoStringRight" html="true" text="#progressInfo1" />		 
+		<Panel id="InfoProgress1" class="InfoStringRight" >
+			<Image id="InfoProgress1Image1" src="file://{images}/custom_game/game_info/orb_of_agility.png" />
+			<Image id="InfoProgress1Image2" src="file://{images}/custom_game/game_info/orb_of_intellect.png" />
+			<Image id="InfoProgress1Image3" src="file://{images}/custom_game/game_info/orb_of_strength.png" />		
+		</Panel> 
+
+		<Panel id="InfoProgress2" class="InfoStringRight" >
+			<Label id="InfoProgress2Text" text="#progressInfo2" />
+			<Image id="InfoProgress2Image1" src="file://{images}/custom_game/game_info/watch_of_reset.png" />
+		</Panel>
+		<!--Карта-->
+		<Label id="H3" class="Header" html="true" text="#map" />		 
+		<Panel id="InfoMap" class="InfoStringLeft" >
+			<Image id="InfoMapImage" src="file://{images}/custom_game/game_info/teleport.png" />
+			<Label id="InfoMapText" text="#mapInfo1" />				
+		</Panel> 
+		<!--Потусторонние миры-->
+		<Label id="H4" class="Header" html="true" text="#otherworldly" />				
+		<Panel id="InfoOW" class="InfoStringRight" >
+			<Label id="InfoOWText1" text="#otherworldlyInfo1" />				
+			<Image id="InfoOWImage1" src="file://{images}/custom_game/game_info/ring.png" />			
+		</Panel> 
+
+		<Panel id="InfoOW1" class="InfoStringDown" >
+			<Image id="InfoOWImageTickets" src="file://{images}/custom_game/game_info/tickets.png" />				
+		</Panel> 
+		 
+		<Panel id="InfoOW2" class="InfoStringLeft" >
+			<Image id="InfoOWImage2" src="file://{images}/custom_game/game_info/bc.png" />			
+			<Label id="InfoOWText2" text="#otherworldlyInfo2" />				
+
+		</Panel> 
+		 
+		<Panel id="InfoOW3" class="InfoStringRight" >
+			<Label id="InfoOWText3" text="#otherworldlyInfo3" />				
+			<Image id="InfoOWImage3" src="file://{images}/custom_game/game_info/ds.png" />			
+		</Panel> 
+
+		<!--Эльфы-->		
+		<Label id="H5" class="Header" html="true" text="#elfs" />
+		<Panel id="InfoElfs" class="InfoStringDown" >
+			<Label id="InfoElfsText1" text="#elfsInfo1" />	
+			<Label id="InfoElfsText2" text="#elfsInfo2" />
+			<Label id="InfoElfsText3" text="#elfsInfo3" />			
+		</Panel> 
+
+		<!--Рекомендации-->		
+		<Label id="H6" class="Header" html="true" text="#recomm" />
+		<Panel id="InfoRecomm" class="InfoStringDown" >
+			<Label id="InfoRecommText1" text="#recommInfo1" />
+			<Label id="InfoRecommText2" text="#recommInfo2" />	
+			<Label id="InfoRecommText3" text="#recommInfo3" />
+			<Label id="InfoRecommText4" text="#recommInfo4" />								
+		</Panel> 
+
+	</Panel>		
+</root>

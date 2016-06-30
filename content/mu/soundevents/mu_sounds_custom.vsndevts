@@ -1,0 +1,1033 @@
+"MU.intro"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/intro.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}
+
+"MU.pub"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/pub.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}
+
+
+"MU.pub_dire"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/pub_dire.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}
+
+
+
+"MU.lorencia"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/lorencia.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}
+
+"MU.twisting_slash"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/twisting_slash.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}
+
+"MU.death_stab"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/death_stab.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}
+
+
+"MU.combo"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/combo.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}
+
+
+"MU.combo_two"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/combo_two.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}
+
+
+"MU.strike_of_destruction"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/strike_of_destruction.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}
+
+"MU.ice"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/ice.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}
+
+"MU.evil_spirits"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/evil_spirits.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}
+
+"MU.soul_barrier"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/soul_barrier.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}
+
+"MU.ice_storm"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/ice_storm.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}
+
+"MU.crystal_hit"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/crystal_hit.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}
+
+
+"MU.baff"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/baff.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}
+
+
+"MU.blood_castle"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/blood_castle.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}
+
+"MU.devil_square"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/devil_square.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}
+
+"MU.map_kundun"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"              "sos_reference_stack"
+                "reference_stack"       "dota_src1_3d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                              "value0"        "sounds/map_kundun.vsnd"
+                        }
+                    }
+					"volume_min"
+					{
+							"value"         "1.500000"
+					}
+					"volume_max"
+					{
+							"value"         "1.500000"
+					}
+					"pitch_min"
+					{
+							"value"         "0.950000"
+					}
+					"pitch_max"
+					{
+							"value"         "1.050000"
+					}
+					"chan_type"
+					{
+							"value"         "6"
+					}
+					"memory_type"
+					{
+							"value"         "0"
+					}
+					"soundlevel_min"
+					{
+							"value"         "100.000000"
+					}
+					"soundlevel_max"
+					{
+							"value"         "100.000000"
+					}
+                }
+            }
+        }
+    }
+}

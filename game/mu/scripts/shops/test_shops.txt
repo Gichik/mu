@@ -1,0 +1,126 @@
+"dota_shops"
+{
+	"consumables"
+	{
+		"item"		"item_orb_of_agility"
+		"item"		"item_orb_of_intellect"
+		"item"		"item_orb_of_strength"		
+		"item"		"item_orb_of_summon"
+		"item"		"item_watch_of_reset"
+		"item"		"item_small_heal_potion"
+		"item"		"item_small_mana_potion"
+		"item"		"item_large_heal_potion"
+		"item"		"item_large_mana_potion"
+		"item"		"item_ward_observer"
+		"item"		"item_ward_sentry"		
+
+	}
+
+	"attributes"
+	{
+		"item"		"item_bow_elven"
+		"item"		"item_bow_battle"
+		"item"		"item_bow_tiger"
+		"item"		"item_crossbow_saint"
+		"item"		"item_crossbow_archangel"
+		"item"		"item_bow_albatross"
+		"item"		"item_armor_silk"
+		"item"		"item_armor_wind"	
+		"item"		"item_armor_guardian"	
+		"item"		"item_armor_iris"
+		"item"		"item_orb_of_ice_arrow"
+		"item"		"item_orb_of_greater_damage"
+		"item"		"item_orb_of_greater_defense"
+		"item"		"item_orb_of_heal"	
+		
+	}
+
+	"weapons_armor"
+	{
+		"item"		"item_sword_falchion"
+		"item"		"item_sword_double_blade"
+		"item"		"item_sword_lightning"
+		"item"		"item_sword_crystal"
+		"item"		"item_sword_archangel"
+		"item"		"item_sword_dark_breaker"		
+		"item"		"item_armor_scile"
+		"item"		"item_armor_plate"	
+		"item"		"item_armor_dragon"	
+		"item"		"item_armor_aschrow"
+		"item"		"item_orb_of_twisting_slash"
+		"item"		"item_orb_of_death_stab"
+		"item"		"item_orb_of_strike_of_destruction"		
+	}
+	
+	"misc"
+	{
+		"item"		"item_staff_serpent"
+		"item"		"item_staff_legendary"
+		"item"		"item_staff_resurrection"
+		"item"		"item_staff_dark_soul"
+		"item"		"item_staff_archangel"
+		"item"		"item_staff_platina_wing"		
+		"item"		"item_armor_bone"
+		"item"		"item_armor_sphinx"	
+		"item"		"item_armor_legendary"	
+		"item"		"item_armor_eclipse"
+		"item"		"item_scroll_of_evil_spirits"
+		"item"		"item_scroll_of_ice_storm"
+		"item"		"item_scroll_of_soul_barrier"
+		"item"		"item_scroll_of_teleport"		
+	}	
+	
+	// Level 1 - Green Recipes
+	"basics"
+	{
+		"item"		"item_skull_token"		
+		"item"		"item_devils_square_ticket"	
+		"item"		"item_scroll_of_archangel"		
+		"item"		"item_cloak_of_invisibility"
+		"item"		"item_symbol_of_kundun"		
+		"item"		"item_lost_cube"
+	}
+
+	// Level 2 - Blue Recipes
+	"support"
+	{
+
+	}
+	
+	"magics"
+	{
+
+	}
+	
+	// Level 3 - Purple Recipes
+	"defense"
+	{
+
+	}
+	
+	"weapons"
+	{
+
+	}
+	
+	// Level 4 - Orange / Orb / Artifacts
+	"artifacts"
+	{
+
+	}
+
+	"sideshop1"
+	{
+
+	}
+
+	"sideshop2"
+	{
+
+	}
+	
+	"secretshop"
+	{
+
+	}
+}

@@ -1,0 +1,3474 @@
+"DOTAAbilities"
+{
+
+ 	"item_orb_of_agility"
+   {
+		"ID"							"1201" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"orb_of_agility" 
+		"ItemCost"                       "100" 
+		"ItemAliases"					"item_orb_of_agility"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		"ItemInitialCharges" "1" 
+		"ItemStackable" "1"
+		"ItemPermanent" "0"				
+
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"GiveAttributes"
+					"Attribute"			"Agility"
+				}
+
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"RemoveItemFromHero"
+					"item_name"			"item_orb_of_agility"
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+			
+		
+		
+   }
+
+
+ 	"item_orb_of_intellect"
+   {
+		"ID"							"1202" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"orb_of_intellect" 
+		"ItemCost"                       "100" 
+		"ItemAliases"					"item_orb_of_intellect"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		"ItemInitialCharges" "1" 
+		"ItemStackable" "1"
+		"ItemPermanent" "0"				
+
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"GiveAttributes"
+					"Attribute"			"Intellect"
+				}
+
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"RemoveItemFromHero"
+					"item_name"			"item_orb_of_intellect"
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}			
+		
+		
+   }
+
+
+ 	"item_orb_of_strength"
+   {
+		"ID"							"1203" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"orb_of_strength" 
+		"ItemCost"                       "100" 
+		"ItemAliases"					"item_orb_of_strength"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		"ItemInitialCharges" "1" 
+		"ItemStackable" "1"
+		"ItemPermanent" "0"				
+
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"GiveAttributes"
+					"Attribute"			"Strength"
+				}
+
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"RemoveItemFromHero"
+					"item_name"			"item_orb_of_strength"
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}			
+		
+		
+   }   
+
+  	//============================================================================================================
+	// Elf
+	//============================================================================================================	   
+   
+   
+ 	"item_bow_elven"
+   {
+		"ID"							"1204" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"bow_elven" 
+		"ItemCost"                       "200" 
+		"ItemAliases"					"item_bow_elven"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_damage"	"30"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+		
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"AddModifier"				
+				"Name"				"modifier_triple_shot"
+				"Class"				"npc_dota_hero_windrunner"				
+			}
+
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}
+			
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"RemoveTripleShotModifier"				
+				"Name"				"modifier_triple_shot"
+				"ItemModif"			"modifier_elf_item_bonus_damage"
+				"Class"				"npc_dota_hero_windrunner"				
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_elf_item_bonus_damage"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE" "%bonus_damage"
+				}
+			}
+		}
+
+		
+			
+		
+   }
+   
+   
+
+ 	"item_bow_battle"
+   {
+		"ID"							"1205" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"bow_battle" 
+		"ItemCost"                       "800" 
+		"ItemAliases"					"item_bow_battle"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_damage"	"60"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+		
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"AddModifier"				
+				"Name"				"modifier_triple_shot"
+				"Class"				"npc_dota_hero_windrunner"				
+			}
+
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		
+		}
+			
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"RemoveTripleShotModifier"				
+				"Name"				"modifier_triple_shot"
+				"ItemModif"			"modifier_elf_item_bonus_damage"
+				"Class"				"npc_dota_hero_windrunner"				
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_elf_item_bonus_damage"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE" "%bonus_damage"
+				}
+			}
+		}			
+			
+		
+   } 
+
+
+ 	"item_bow_tiger"
+   {
+		"ID"							"1206" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"bow_tiger" 
+		"ItemCost"                       "1400" 
+		"ItemAliases"					"item_bow_tiger"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_damage"	"90"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+		
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"AddModifier"				
+				"Name"				"modifier_triple_shot"
+				"Class"				"npc_dota_hero_windrunner"				
+			}
+
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}
+			
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"RemoveTripleShotModifier"				
+				"Name"				"modifier_triple_shot"
+				"ItemModif"			"modifier_elf_item_bonus_damage"
+				"Class"				"npc_dota_hero_windrunner"				
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_elf_item_bonus_damage"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE" "%bonus_damage"
+				}
+			}
+		}			
+			
+		
+   } 
+
+
+
+   "item_crossbow_saint"
+   {
+		"ID"							"1207" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"crossbow_saint" 
+		"ItemCost"                       "2000" 
+		"ItemAliases"					"item_crossbow_saint"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_damage"	"120"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+		
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"AddModifier"				
+				"Name"				"modifier_triple_shot"
+				"Class"				"npc_dota_hero_windrunner"				
+			}
+
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}
+			
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"RemoveTripleShotModifier"				
+				"Name"				"modifier_triple_shot"
+				"ItemModif"			"modifier_elf_item_bonus_damage"
+				"Class"				"npc_dota_hero_windrunner"				
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_elf_item_bonus_damage"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE" "%bonus_damage"
+				}
+			}
+		}			
+			
+		
+   }
+
+
+   "item_crossbow_archangel"
+   {
+		"ID"							"1208" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"crossbow_archangel" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_crossbow_archangel"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_damage"	"150"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+		
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"AddModifier"				
+				"Name"				"modifier_triple_shot"
+				"Class"				"npc_dota_hero_windrunner"				
+			}
+
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		
+		}
+			
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"RemoveTripleShotModifier"				
+				"Name"				"modifier_triple_shot"
+				"ItemModif"			"modifier_elf_item_bonus_damage"
+				"Class"				"npc_dota_hero_windrunner"				
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_elf_item_bonus_damage"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE" "%bonus_damage"
+				}
+			}
+		}			
+			
+		
+   }           
+   
+   "item_bow_albatross"
+   {
+		"ID"							"1209" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"bow_albatross" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_bow_albatross"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_damage"	"180"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+		
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"AddModifier"				
+				"Name"				"modifier_triple_shot"
+				"Class"				"npc_dota_hero_windrunner"				
+			}
+
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}
+			
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"RemoveTripleShotModifier"				
+				"Name"				"modifier_triple_shot"
+				"ItemModif"			"modifier_elf_item_bonus_damage"
+				"Class"				"npc_dota_hero_windrunner"				
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_elf_item_bonus_damage"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE" "%bonus_damage"
+				}
+			}
+		}			
+			
+		
+   }              
+
+   
+   "item_armor_silk"
+   {
+		"ID"							"1210" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"armor_silk" 
+		"ItemCost"                       "300" 
+		"ItemAliases"					"item_armor_silk"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_defense"	"5"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}
+		}		
+
+		"Modifiers"
+		{
+			"modifier_elf_item_bonus_defense"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%bonus_defense"
+				}
+			}
+		}			
+				
+   }  
+
+   "item_armor_wind"
+   {
+		"ID"							"1211" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"armor_wind" 
+		"ItemCost"                       "900" 
+		"ItemAliases"					"item_armor_wind"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_defense"	"10"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}		
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}
+		}		
+		
+		"Modifiers"
+		{
+			"modifier_elf_item_bonus_defense"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%bonus_defense"
+				}
+			}
+		}			
+				
+   } 
+   
+   "item_armor_guardian"
+   {
+		"ID"							"1212" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"armor_guardian" 
+		"ItemCost"                       "1500" 
+		"ItemAliases"					"item_armor_guardian"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_defense"	"15"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}		
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}
+		}		
+		
+		"Modifiers"
+		{
+			"modifier_elf_item_bonus_defense"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%bonus_defense"
+				}
+			}
+		}			
+				
+   }    
+   
+   "item_armor_iris"
+   {
+		"ID"							"1213" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"armor_iris" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_armor_iris"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_defense"	"20"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}		
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}
+		}		
+		
+		"Modifiers"
+		{
+			"modifier_elf_item_bonus_defense"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%bonus_defense"
+				}
+			}
+		}
+		
+   }    
+
+  	//============================================================================================================
+	// Dark King
+	//============================================================================================================	   
+ 
+ 	"item_sword_falchion"
+   {
+		"ID"							"1214" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO" 
+		"AbilityTextureName"			"sword_falchion" 
+		"ItemCost"                       "200" 
+		"ItemAliases"					"item_sword_falchion"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_damage"	"30"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}
+		
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}
+		}		
+		
+
+		"Modifiers"
+		{
+			"modifier_dk_item_bonus_damage"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE" "%bonus_damage"
+				}
+			}
+		}
+	
+   }
+
+ 	"item_sword_double_blade"
+   {
+		"ID"							"1215" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"sword_double_blade" 
+		"ItemCost"                       "800" 
+		"ItemAliases"					"item_sword_double_blade"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_damage"	"60"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}
+		
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}
+		}		
+
+		"Modifiers"
+		{
+			"modifier_dk_item_bonus_damage"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE" "%bonus_damage"
+				}
+			}
+		}
+	
+   }
+   
+ 	"item_sword_lightning"
+   {
+		"ID"							"1216" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"sword_lightning" 
+		"ItemCost"                       "1400" 
+		"ItemAliases"					"item_sword_lightning"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_damage"	"90"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}
+		
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}
+		}		
+
+		"Modifiers"
+		{
+			"modifier_dk_item_bonus_damage"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE" "%bonus_damage"
+				}
+			}
+		}
+	
+   } 
+
+ 	"item_sword_crystal"
+   {
+		"ID"							"1217" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO" 
+		"AbilityTextureName"			"sword_crystal" 
+		"ItemCost"                       "2000" 
+		"ItemAliases"					"item_sword_crystal"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_damage"	"120"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}
+		
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}
+		}		
+
+		"Modifiers"
+		{
+			"modifier_dk_item_bonus_damage"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE" "%bonus_damage"
+				}
+			}
+		}
+	
+   }
+
+ 	"item_sword_dark_breaker"
+   {
+		"ID"							"1218" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO" 
+		"AbilityTextureName"			"sword_dark_breaker" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_sword_dark_breaker"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_damage"	"180"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}
+		
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}
+		}		
+
+		"Modifiers"
+		{
+			"modifier_dk_item_bonus_damage"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE" "%bonus_damage"
+				}
+			}
+		}
+	
+   } 
+   
+ 	"item_sword_archangel"
+   {
+		"ID"							"1219" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"sword_archangel" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_sword_archangel"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_damage"	"150"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}
+		
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}
+		}		
+
+		"Modifiers"
+		{
+			"modifier_dk_item_bonus_damage"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE" "%bonus_damage"
+				}
+			}
+		}
+	
+   }
+
+   "item_armor_scile"
+   {
+		"ID"							"1220" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"armor_scile" 
+		"ItemCost"                       "1000" 
+		"ItemAliases"					"item_armor_scile"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_defense"	"15"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}
+		}		
+
+		"Modifiers"
+		{
+			"modifier_dk_item_bonus_defense"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%bonus_defense"
+				}
+			}
+		}
+		
+   }
+
+   "item_armor_plate"
+   {
+		"ID"							"1221" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"armor_plate" 
+		"ItemCost"                       "1600" 
+		"ItemAliases"					"item_armor_plate"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_defense"	"20"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}
+		
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}	
+		}
+		
+
+		"Modifiers"
+		{
+			"modifier_dk_item_bonus_defense"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%bonus_defense"
+				}
+			}
+		}
+		
+   }
+
+   "item_armor_dragon"
+   {
+		"ID"							"1222" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"armor_dragon" 
+		"ItemCost"                       "2100" 
+		"ItemAliases"					"item_armor_dragon"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_defense"	"25"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}
+		}		
+
+		"Modifiers"
+		{
+			"modifier_dk_item_bonus_defense"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%bonus_defense"
+				}
+			}
+		}
+		
+   } 
+
+   "item_armor_aschrow"
+   {
+		"ID"							"1223" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"armor_aschrow" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_armor_aschrow"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_defense"	"30"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}	
+		}		
+
+		"Modifiers"
+		{
+			"modifier_dk_item_bonus_defense"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%bonus_defense"
+				}
+			}
+		}
+		
+   }
+
+
+  	//============================================================================================================
+	// Dark Wizard
+	//============================================================================================================      
+ 
+ 
+  "item_staff_serpent"
+   {
+		"ID"							"1224" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO" 
+		"AbilityTextureName"			"staff_serpent" 
+		"ItemCost"                       "200" 
+		"ItemAliases"					"item_staff_serpent"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_intellect"	"30"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		}
+		
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}		
+
+		"Modifiers"
+		{
+			"modifier_dw_item_bonus_intellect"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "%bonus_intellect"
+				}
+			}
+		}
+	
+   }
+ 
+  "item_staff_legendary"
+   {
+		"ID"							"1225" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"staff_legendary" 
+		"ItemCost"                       "800" 
+		"ItemAliases"					"item_staff_legendary"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_intellect"	"60"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		}
+		
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}		
+
+		"Modifiers"
+		{
+			"modifier_dw_item_bonus_intellect"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "%bonus_intellect"
+				}
+			}
+		}
+	
+   } 
+ 
+  "item_staff_resurrection"
+   {
+		"ID"							"1226" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO" 
+		"AbilityTextureName"			"staff_resurrection" 
+		"ItemCost"                       "1400" 
+		"ItemAliases"					"item_staff_resurrection"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_intellect"	"90"
+			}
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		}
+		
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}		
+
+		"Modifiers"
+		{
+			"modifier_dw_item_bonus_intellect"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "%bonus_intellect"
+				}
+			}
+		}
+	
+   } 
+   
+   
+   "item_staff_dark_soul"
+   {
+		"ID"							"1227" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"staff_dark_soul" 
+		"ItemCost"                       "2000" 
+		"ItemAliases"					"item_staff_dark_soul"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_intellect"	"120"
+			}
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+		
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}		
+
+		"Modifiers"
+		{
+			"modifier_dw_item_bonus_intellect"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "%bonus_intellect"
+				}
+			}
+		}
+	
+   }   
+ 
+   "item_staff_platina_wing"
+   {
+		"ID"							"1228" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"staff_platina_wing" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_staff_platina_wing"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_intellect"	"180"
+			}
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		}
+		
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}		
+
+		"Modifiers"
+		{
+			"modifier_dw_item_bonus_intellect"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "%bonus_intellect"
+				}
+			}
+		}
+	
+   }  
+
+   "item_staff_archangel"
+   {
+		"ID"							"1229" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"staff_archangel" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_staff_archangel"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_intellect"	"150"
+			}
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		}
+		
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}		
+
+		"Modifiers"
+		{
+			"modifier_dw_item_bonus_intellect"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS" "%bonus_intellect"
+				}
+			}
+		}
+	
+   }    
+
+   "item_armor_bone"
+   {
+		"ID"							"1230" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"armor_bone" 
+		"ItemCost"                       "300" 
+		"ItemAliases"					"item_armor_bone"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_defense"	"5"
+			}
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}	
+		}		
+
+		"Modifiers"
+		{
+			"modifier_dw_item_bonus_defense"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%bonus_defense"
+				}
+			}
+		}
+		
+   } 
+
+   "item_armor_sphinx"
+   {
+		"ID"							"1231" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"armor_sphinx" 
+		"ItemCost"                       "900" 
+		"ItemAliases"					"item_armor_sphinx"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_defense"	"10"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		
+		}		
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}		
+		
+		"Modifiers"
+		{
+			"modifier_dw_item_bonus_defense"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%bonus_defense"
+				}
+			}
+		}
+		
+   }
+
+   "item_armor_legendary"
+   {
+		"ID"							"1232" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"armor_legendary" 
+		"ItemCost"                       "1500" 
+		"ItemAliases"					"item_armor_legendary"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_defense"	"15"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}		
+
+		"Modifiers"
+		{
+			"modifier_dw_item_bonus_defense"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%bonus_defense"
+				}
+			}
+		}
+		
+   }
+ 
+   "item_armor_eclipse"
+   {
+		"ID"							"1233" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"armor_eclipse" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_armor_eclipse"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_defense"	"20"
+			}
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}		
+
+		"Modifiers"
+		{
+			"modifier_dw_item_bonus_defense"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" "%bonus_defense"
+				}
+			}
+		}
+		
+   }
+
+
+  	//============================================================================================================
+	// Quests
+	//============================================================================================================	   
+
+	
+ 	"item_skull_token"
+   {
+		"ID"							"1235" 
+		"BaseClass"						"item_datadriven"  	
+		"AbilityTextureName"			"skull_token" 
+		"AbilityBehavior"         		"DOTA_ABILITY_BEHAVIOR_NO_TARGET" 		
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_skull_token"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH"
+		"ItemInitialCharges" "1" 
+		"ItemDisplayCharges" "1"
+		"ItemStackable" "1"
+		"ItemPermanent" "0"	
+	
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekTicket"				
+				"PartName"			"item_skull_token"
+				"TicketName"		"item_devils_square_ticket"
+				"item_name"			"item_skull_token"				
+			}			
+		}
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}		
+		
+   }	
+	
+ 	"item_devils_square_ticket"
+   {
+		"ID"							"1236" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"devils_square_ticket" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_devils_square_ticket"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+				
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"teleport.lua"
+					"Function"			"MoveToQuest"
+					"QuestName"			"devil_square"
+					"item_name"			"item_devils_square_ticket"						
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+		
+   }
+
+ 	"item_scroll_of_archangel"
+   {
+		"ID"							"1237" 
+		"BaseClass"						"item_datadriven"  	
+		"AbilityTextureName"			"scroll_of_archangel" 
+		"AbilityBehavior"         		"DOTA_ABILITY_BEHAVIOR_NO_TARGET" 		
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_scroll_of_archangel"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH"
+		"ItemInitialCharges" "1" 
+		"ItemDisplayCharges" "1"
+		"ItemStackable" "1"
+		"ItemPermanent" "0"	
+	
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekTicket"				
+				"PartName"			"item_scroll_of_archangel"
+				"TicketName"		"item_cloak_of_invisibility"
+				"item_name"			"item_scroll_of_archangel"				
+			}			
+		}
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}		
+		
+   }	
+	
+ 	"item_cloak_of_invisibility"
+   {
+		"ID"							"1238" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"cloak_of_invisibility" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_cloak_of_invisibility"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+				
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"teleport.lua"
+					"Function"			"MoveToQuest"
+					"QuestName"			"blood_castle"
+					"item_name"			"item_cloak_of_invisibility"						
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+		
+   }   
+  
+ 	"item_symbol_of_kundun"
+   {
+		"ID"							"1239" 
+		"BaseClass"						"item_datadriven"  	
+		"AbilityTextureName"			"symbol_of_kundun" 
+		"AbilityBehavior"         		"DOTA_ABILITY_BEHAVIOR_NO_TARGET" 		
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_symbol_of_kundun"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH"
+		"ItemInitialCharges" "1" 
+		"ItemDisplayCharges" "1"
+		"ItemStackable" "1"
+		"ItemPermanent" "0"	
+	
+		"OnSpellStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekTicket"				
+				"PartName"			"item_symbol_of_kundun"
+				"TicketName"		"item_lost_cube"
+				"item_name"			"item_symbol_of_kundun"				
+			}			
+		}
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}		
+		
+   }	
+	
+ 	"item_lost_cube"
+   {
+		"ID"							"1240" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"lost_cube" 
+		"ItemCost"                      "1" 
+		"ItemAliases"					"item_lost_cube"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+				
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"teleport.lua"
+					"Function"			"MoveToQuest"
+					"QuestName"			"kalima"
+					"item_name"			"item_lost_cube"					
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+			
+   }
+
+ 
+  	//============================================================================================================
+	// Skill Orbs
+	//============================================================================================================	
+	
+ 	"item_orb_of_twisting_slash"
+   {
+		"ID"							"1241" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"orb_of_twisting_slash" 
+		"ItemCost"                      "200" 
+		"ItemAliases"					"item_orb_of_twisting_slash"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+				
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"LearnSkill"
+					"SkillName"			"twisting_slash"
+					"item_name"			"item_orb_of_twisting_slash"
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+			
+   }
+
+	"item_orb_of_death_stab"
+   {
+		"ID"							"1242" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"orb_of_death_stab" 
+		"ItemCost"                      "200" 
+		"ItemAliases"					"item_orb_of_death_stab"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+				
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"LearnSkill"
+					"SkillName"			"death_stab"
+					"item_name"			"item_orb_of_death_stab"
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+			
+   }   
+	
+ 	"item_orb_of_strike_of_destruction"
+   {
+		"ID"							"1243" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"orb_of_strike_of_destruction" 
+		"ItemCost"                      "200" 
+		"ItemAliases"					"item_orb_of_strike_of_destruction"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+				
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"LearnSkill"
+					"SkillName"			"strike_of_destruction"
+					"item_name"			"item_orb_of_strike_of_destruction"
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+			
+   }
+
+ 	"item_orb_of_ice_arrow"
+   {
+		"ID"							"1244" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"orb_of_ice_arrow" 
+		"ItemCost"                      "200" 
+		"ItemAliases"					"item_orb_of_ice_arrow"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+				
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"LearnSkill"
+					"SkillName"			"ice_arrow"
+					"item_name"			"item_orb_of_ice_arrow"
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+			
+   }
+
+ 	"item_orb_of_greater_damage"
+   {
+		"ID"							"1245" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"orb_of_greater_damage" 
+		"ItemCost"                      "200" 
+		"ItemAliases"					"item_orb_of_greater_damage"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+				
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"LearnSkill"
+					"SkillName"			"greater_damage"
+					"item_name"			"item_orb_of_greater_damage"
+				}					
+			}	
+			
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}					
+			
+   }
+   
+  	"item_orb_of_greater_defense"
+   {
+		"ID"							"1246" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"orb_of_greater_defense" 
+		"ItemCost"                      "200" 
+		"ItemAliases"					"item_orb_of_greater_defense"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+				
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"LearnSkill"
+					"SkillName"			"greater_defense"
+					"item_name"			"item_orb_of_greater_defense"
+				}					
+			}	
+			
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}			
+			
+   }
+
+ 	"item_orb_of_heal"
+   {
+		"ID"							"1247" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"orb_of_heal" 
+		"ItemCost"                      "200" 
+		"ItemAliases"					"item_orb_of_heal"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+				
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"LearnSkill"
+					"SkillName"			"ability_heal"
+					"item_name"			"item_orb_of_heal"
+				}					
+			}	
+			
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}			
+			
+   }
+
+   "item_orb_of_summon"
+   {
+		"ID"							"1248" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"orb_of_summon" 
+		"ItemCost"                      "200" 
+		"ItemAliases"					"item_orb_of_summon"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+				
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"LearnSkill"
+					"SkillName"			"elf_spirit_bear"
+					"item_name"			"item_orb_of_summon"
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+			
+   }
+
+ 	"item_scroll_of_evil_spirits"
+   {
+		"ID"							"1249" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"scroll_of_evil_spirits" 
+		"ItemCost"                      "200" 
+		"ItemAliases"					"item_scroll_of_evil_spirits"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+				
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"LearnSkill"
+					"SkillName"			"evil_spirits"
+					"item_name"			"item_scroll_of_evil_spirits"
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+			
+   }
+
+ 	"item_scroll_of_ice_storm"
+   {
+		"ID"							"1250" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"scroll_of_ice_storm" 
+		"ItemCost"                      "200" 
+		"ItemAliases"					"item_scroll_of_ice_storm"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+				
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"LearnSkill"
+					"SkillName"			"ice_storm"
+					"item_name"			"item_scroll_of_ice_storm"
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+			
+   }
+
+ 	"item_scroll_of_soul_barrier"
+   {
+		"ID"							"1251" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"scroll_of_soul_barrier" 
+		"ItemCost"                      "200" 
+		"ItemAliases"					"item_scroll_of_soul_barrier"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+				
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"LearnSkill"
+					"SkillName"			"soul_barrier"
+					"item_name"			"item_scroll_of_soul_barrier"
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+			
+   }
+
+ 	"item_scroll_of_teleport"
+   {
+		"ID"							"1252" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"scroll_of_teleport" 
+		"ItemCost"                      "200" 
+		"ItemAliases"					"item_scroll_of_teleport"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+				
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"LearnSkill"
+					"SkillName"			"dw_teleport"
+					"item_name"			"item_scroll_of_teleport"
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+			
+   }   
+ 
+  	//===========================================================================================================
+	// Other items
+	//=========================================================================================================== 
+	
+ 	"item_watch_of_reset"
+   {
+		"ID"							"1253" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"watch_of_reset" 
+		"ItemCost"                      "1000" 
+		"ItemAliases"					"item_watch_of_reset"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+				
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"DoReset"
+					"item_name"			"item_watch_of_reset"					
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+			
+   } 
+
+ 	"item_small_heal_potion"
+   {
+		"ID"							"1254" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"small_heal_potion" 
+		"ItemCost"                      "200" 
+		"ItemAliases"					"item_small_heal_potion"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		"ItemInitialCharges" "1" 
+		"ItemDisplayCharges" "1"
+		"ItemStackable" "1"
+		"ItemPermanent" "0"	
+		
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"HealPotion"
+					"Heal"				"100"
+					"item_name"			"item_small_heal_potion"					
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}			
+			
+   }
+
+
+ 	"item_large_heal_potion"
+   {
+		"ID"							"1255" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"large_heal_potion" 
+		"ItemCost"                      "400" 
+		"ItemAliases"					"item_large_heal_potion"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		"ItemInitialCharges" "1" 
+		"ItemDisplayCharges" "1"
+		"ItemStackable" "1"
+		"ItemPermanent" "0"	
+		
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"HealPotion"
+					"Heal"				"300"
+					"item_name"			"item_large_heal_potion"					
+				}					
+			}	
+			
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}			
+			
+   } 
+
+ 	"item_small_mana_potion"
+   {
+		"ID"							"1256" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"small_mana_potion" 
+		"ItemCost"                      "200" 
+		"ItemAliases"					"item_small_mana_potion"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		"ItemInitialCharges" "1" 
+		"ItemDisplayCharges" "1"
+		"ItemStackable" "1"
+		"ItemPermanent" "0"	
+		
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"ManaPotion"
+					"Mana"				"100"
+					"item_name"			"item_small_mana_potion"					
+				}					
+			}	
+			
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}			
+			
+   } 
+   
+ 	"item_large_mana_potion"
+   {
+		"ID"							"1257" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"	
+		"AbilityTextureName"			"large_mana_potion" 
+		"ItemCost"                      "400" 
+		"ItemAliases"					"item_large_mana_potion"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"1" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		"ItemInitialCharges" "1" 
+		"ItemDisplayCharges" "1"
+		"ItemStackable" "1"
+		"ItemPermanent" "0"	
+		
+		"OnSpellStart"
+			{ 
+				"RunScript"
+				{
+					"ScriptFile"		"ai.lua"
+					"Function"			"ManaPotion"
+					"Mana"				"300"
+					"item_name"			"item_large_mana_potion"						
+				}					
+			}
+
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}		
+		}					
+   }
+
+	"item_bag_of_gold"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityName"					"item_bag_of_gold"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Model"							"models/props_gameplay/gold_bag.vmdl"
+		"ItemKillable"					"0"
+		"ItemDroppable"					"1" 
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"9"
+		"ItemPurchasable"				"0"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"0"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"1"	
+
+
+	}
+
+  	//===========================================================================================================
+	// Excl items
+	//=========================================================================================================== 
+	
+
+ 	"item_excl_ring_mana"
+   {
+		"ID"							"1259" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"excl_ring_mana" 
+		"ItemQuality"					"common"		
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_excl_ring_mana"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_mana_regen"	"20"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}
+		
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}
+		}		
+
+		"Modifiers"
+		{
+			"modifier_bonus_mana_regen"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT" "%bonus_mana_regen"
+				}
+			}
+		}
+   }
+
+ 	"item_excl_ring_hp"
+   {
+		"ID"							"1260" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"excl_ring_hp"
+		"ItemQuality"					"common"		 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_excl_ring_hp"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_health_regen"	"20"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}
+		
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}
+		}		
+
+		"Modifiers"
+		{
+			"modifier_bonus_health_regen"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT" "%bonus_health_regen"
+				}
+			}
+		}
+   }
+
+ 	"item_excl_pendant_hp"
+   {
+		"ID"							"1261" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName"			"excl_pendant_hp"
+		"ItemQuality"					"common"		 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_excl_pendant_hp"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"1" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+
+
+		"AbilitySpecial"
+		{
+				"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_health"	"1000"
+			}
+
+		}		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}			
+		
+		}
+		
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"ai.lua"
+				"Function"			"ChekClass"				
+			}
+		}		
+
+		"Modifiers"
+		{
+			"modifier_bonus_health"
+			{
+				"Passive" "1"  
+				"IsHidden" "1"  
+				
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_HEALTH_BONUS" "%bonus_health"
+				}
+			}
+		}
+   }
+
+}

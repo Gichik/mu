@@ -1,0 +1,127 @@
+// Dota Heroes File
+// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+	//=================================================================================================================
+	// HERO: Dark Wizard
+	//=================================================================================================================
+	"npc_dota_hero_dazzle"
+	{
+		"override_hero"				"npc_dota_hero_dazzle"
+		"AbilityLayout"				"4"
+		"Ability1"					"evil_spirits"						
+		"Ability2"					"dw_teleport"
+		"Ability3"					"ice_storm"
+		"Ability4"					"soul_barrier"
+		"Ability5"					""
+		"Ability6"					""
+		"Ability7"					""
+		"Ability8"					""		
+		"VisionDaytimeRange"		"800"
+		"VisionNighttimeRange"		"600"
+		"MovementSpeed"				"300"
+		"ArmorPhysical"				"-1"
+		"MagicalResistance"			"25"
+		"AttackDamageMin"			"16"
+		"AttackDamageMax"			"30"
+		"AttackRate"				"1.700000"
+		"AttackAnimationPoint"		"0.500000"
+		"AttackAcquisitionRange"	"800"
+		"AttackRange"				"800"
+		"ProjectileModel"			"particles/units/heroes/hero_dazzle/dazzle_base_attack.vpcf"
+		"ProjectileSpeed"			"1200"
+		"AttributePrimary"			"DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength"		"25"
+		"AttributeStrengthGain"		"0.000001"
+		"AttributeBaseAgility"		"25"
+		"AttributeAgilityGain"		"0.0"
+		"AttributeBaseIntelligence"	"40"
+		"AttributeIntelligenceGain"	"0.0"
+		"MovementSpeed"				"295"
+		"MovementTurnRate"			"0.600000"
+		"HealthBarOffset"			"160"		
+	}
+	
+	//=================================================================================================================
+	// HERO: Elf
+	//=================================================================================================================	
+	"npc_dota_hero_windrunner"
+	{
+		"override_hero"				"npc_dota_hero_windrunner"
+		"AbilityLayout"				"4"				
+		"Ability1"					"greater_defense"
+		"Ability2"					"ability_heal"
+		"Ability3"					"greater_damage"
+		"Ability4"					"ice_arrow"			
+		"Ability5"					""
+		"Ability6"					""
+		"Ability7"					""
+		"Ability8"					""		
+		"VisionDaytimeRange"		"800"
+		"VisionNighttimeRange"		"600"
+		"MovementSpeed"				"300"
+		"ArmorPhysical"				"-1"
+		"MagicalResistance"			"25"
+		"AttackDamageMin"			"16"
+		"AttackDamageMax"			"30"
+		"AttackRate"				"1.700000"
+		"AttackAnimationPoint"		"0.400000"
+		"AttackAcquisitionRange"	"800"
+		"AttackRange"				"800"
+		"ProjectileModel"			"particles/units/heroes/hero_windrunner/windrunner_base_attack.vpcf"
+		"ProjectileSpeed"			"1300"
+		"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"		"25"
+		"AttributeStrengthGain"		"0.000001"
+		"AttributeBaseAgility"		"40"
+		"AttributeAgilityGain"		"0.0"
+		"AttributeBaseIntelligence"	"40"
+		"AttributeIntelligenceGain"	"0.0"
+		"MovementSpeed"				"295"
+		"MovementTurnRate"			"0.600000"
+		"HealthBarOffset"			"160"		
+	}	
+	
+	
+	//=================================================================================================================
+	// HERO: Dark Knight
+	//=================================================================================================================	
+	"npc_dota_hero_sven"
+	{
+		"override_hero"				"npc_dota_hero_sven"
+		"AbilityLayout"				"4"
+		"Ability1"					"twisting_slash"						
+		"Ability2"					"strike_of_destruction"
+		"Ability3"					"death_stab"
+		"Ability4"					"combo"
+		"Ability5"					""
+		"Ability6"					""
+		"Ability7"					""
+		"Ability8"					""		
+		"VisionDaytimeRange"		"800"
+		"VisionNighttimeRange"		"800"
+		"MovementSpeed"				"300"
+		"ArmorPhysical"				"2"
+		"MagicalResistance"			"25"
+		"AttackDamageMin"			"30"
+		"AttackDamageMax"			"45"
+		"AttackRate"				"1.700000"
+		"AttackAnimationPoint"		"0.400000"
+		"AttackAcquisitionRange"	"600"
+		"AttackRange"				"128"
+		"ProjectileSpeed"			"0"
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"40"
+		"AttributeStrengthGain"		"0.000001"
+		"AttributeBaseAgility"		"30"
+		"AttributeAgilityGain"		"0.0"
+		"AttributeBaseIntelligence"	"20"
+		"AttributeIntelligenceGain"	"0.0"
+		"MovementSpeed"				"295"
+		"MovementTurnRate"			"0.600000"
+		"HealthBarOffset"			"160"		
+	}		
+	
+	
+}

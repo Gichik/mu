@@ -1,0 +1,229 @@
+.GameInfo
+{
+    width:100%;
+    flow-children: down; 
+}
+ 
+Label
+{
+    font-size: 20px;
+    color: #999999;
+    vertical-align: top;
+}
+ 
+#Title
+{
+    flow-children: right;
+}
+
+#TitleName
+{
+    color: #4bd84e;  
+    font-size: 64px;
+    margin-left: 16px;
+    margin-top: 16px;
+    text-transform: uppercase;
+    vertical-align: center;
+}
+
+.Header
+{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 26px;
+    color: #4bd84e;    
+    text-transform: uppercase;
+}
+
+
+.InfoStringRight
+{
+    font-size: 20px;
+    flow-children: right;
+    width: 100%;
+    margin-top: 18px;
+}
+
+.InfoStringLeft
+{
+    font-size: 20px;
+    flow-children: right-wrap;
+    width: 100%;
+    margin-top: 18px;
+}
+
+.InfoStringDown
+{
+    font-size: 20px;
+    flow-children: down;
+    width: 100%;
+    margin-top: 18px;
+}
+
+#InfoTask1Text
+{   
+    margin-top:  10px;
+    text-align: left;
+    width: 200px;
+}
+
+
+#InfoTask2Text
+{   
+    margin-top:  10px;
+    text-align: left;
+    width: 500px;
+    /*height: 200px;*/
+}
+
+#InfoProgress1Text
+{   
+    margin-top:  10px;
+    text-align: left;
+    width: 500px;
+    /*height: 200px;*/
+}
+
+#InfoProgress2Text
+{   
+    margin-top:  10px;
+    text-align: left;
+    width: 400px;
+}
+
+#InfoMapText
+{   
+    margin-top:  10px;
+    text-align: right;
+    width: 300px;
+}
+
+#InfoOWText1
+{   
+    margin-top:  10px;
+    text-align: left;
+    width: 300px;
+}
+
+#InfoOWText2
+{   
+    margin-top:  10px;
+    text-align: left;
+    width: 300px;
+}
+
+#InfoOWText3
+{   
+    margin-top:  10px;
+    text-align: right;
+    width: 200px;
+}
+
+#InfoElfsText1
+{   
+    margin-top:  10px;
+    text-align: left;
+    width: 400px;
+}
+
+#InfoElfsText2
+{   
+    margin-top:  10px;
+    text-align: left;
+    width: 400px;
+}
+
+
+#InfoElfsText3
+{   
+    margin-top:  10px;
+    text-align: left;
+    width: 400px;
+}
+
+#InfoRecommText1
+{   
+    margin-top:  10px;
+    text-align: left;
+    width: 400px;
+}
+
+#InfoRecommText2
+{   
+    margin-top:  10px;
+    text-align: left;
+    width: 400px;
+}
+
+#InfoRecommText3
+{   
+    margin-top:  10px;
+    text-align: left;
+    width: 400px;
+}
+
+#InfoRecommText4
+{   
+    margin-top:  10px;
+    text-align: left;
+    width: 400px;
+}
+
+#InfoTask1Image1
+{
+    width: 150px;
+    height: 187px;
+}
+
+
+#InfoTask2Image1
+{
+    width: 100px;
+    height: 100px;
+}
+
+#InfoTask2Image2
+{
+    width: 100px;
+    height: 100px;
+}
+
+#InfoProgress1Image1
+{
+    width: 100px;
+    height: 100px;
+}
+
+#InfoProgress1Image2
+{
+    width: 100px;
+    height: 100px;
+}
+
+#InfoProgress1Image3
+{
+    width: 100px;
+    height: 100px;
+}
+
+#InfoProgress2Image1
+{
+    width: 100px;
+    height: 150px;
+}
+
+
+#InfoOWImage2
+{
+    width: 250px;
+    height: 250px;
+}
+
+
+#InfoOWImage3
+{
+    width: 300px;
+    height: 300px;
+}
+
